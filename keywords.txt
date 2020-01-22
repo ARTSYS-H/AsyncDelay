@@ -15,6 +15,7 @@ setInterval	KEYWORD2
 attach	KEYWORD2
 set	KEYWORD2
 run	KEYWORD2
+sleep	KEYWORD2
 ###########################################
 # Constants (LITERAL1)
 ###########################################

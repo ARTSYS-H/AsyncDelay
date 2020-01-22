@@ -16,6 +16,7 @@ private:
     unsigned long _currentMillis;
     unsigned long _previousMillis;
     unsigned long _INTERVAL;
+    boolean _sleep;
     void (*_ptr_func)();
 public:
     AsyncDelay();
@@ -26,6 +27,7 @@ public:
     void attach(void (*func)());
     void set(void (*func)(),unsigned long interval);
     void run();
+    void sleep();
     /* ~AsyncDelay(); */
 };
 
